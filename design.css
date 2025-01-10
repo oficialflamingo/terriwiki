@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Upheaval';
+    src: url('assets/Upheaval/upheavtt.ttf') format('truetype');
+}
+body {
+    background-color: rgb(34, 33, 33);
+}
+nav {
+    background-color: rgb(254, 232, 140);
+    padding: 5px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 35px;
+    font-size: 30px;
+    font-family: 'Upheaval';
+    line-height: 60px;
+}
+nav a:hover {
+    color: rgb(255, 255, 255);
+    transition-delay: 0.1s;
+}
+nav img {
+    vertical-align: middle;
+    margin-right: 15px;
+    width: 80px; /* Increase the width */
+    height: 80px; /* Increase the height */
+    position: relative;
+    top: 2px; /* Move the image down */
+}
+div#Name p {
+    color: rgb(254, 232, 140);
+    background-color: salmon;
+    font-size: 120px;
+    font-family: 'Upheaval';
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+}
+
+div#blocks p {
+    color: White;
+    font-size: 50px;
+    font-family: "Upheaval";
+    text-align: center;
+}
+
